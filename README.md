@@ -1,14 +1,19 @@
-# Pro X 9000 (PRX9000) Silo Extension
+# Pro X (PRX) Silo Extensions
 
-A Farming Simulator 25 silo extension, built from scratch by PropaineX.
+Farming Simulator 25 silo extensions, built from scratch by PropaineX.
 
-- Capacity: 10,000,000 L (farm silo goods)
-- Size: 18 m wide, 32 m walls, flat roof top at about 34.7 m
-- Corrugated galvanised steel with vertical ribs, ring seams and a caged ladder
+| Item | Walls | Capacity | Price |
+|---|---|---|---|
+| PRX9000 | 32 m | 10,000,000 L | $450,000 |
+| PRX8000 | 25.6 m | 8,000,000 L | $360,000 |
+| PRX6000 | 19.2 m | 6,000,000 L | $270,000 |
+
+- All 18 m wide, holding farm silo goods
+- Corrugated galvanised steel with vertical ribs, ring seams every 3.2 m, a flat-topped roof and a caged ladder
 - Shop: Buildings > Silo Extensions
 
 ## Files
-- `modDesc.xml`, `prx9000.xml`: mod and placeable definitions
-- `models/prx9000.i3d` (+ `.shapes`): the model
+- `modDesc.xml`, `prx9000.xml`, `prx8000.xml`, `prx6000.xml`: mod and placeable definitions
+- `models/`: the three models
 - `textures/`: corrugated steel textures for the wall and roof
 - `reference/`: the look we're aiming for

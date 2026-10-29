@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="105">
     <author>PropaineX</author>
-    <version>1.0.0.0</version>
+    <version>1.1.0.0</version>
     <title>
-        <en>Pro X 9000 (PRX9000) Silo Extension</en>
-        <de>Pro X 9000 (PRX9000) Silo-Erweiterung</de>
+        <en>Pro X (PRX) Silo Extensions</en>
+        <de>Pro X (PRX) Silo-Erweiterungen</de>
     </title>
     <description>
-        <en><![CDATA[Pro X 9000 (PRX9000): a huge corrugated steel silo extension with a caged ladder.
+        <en><![CDATA[Pro X (PRX): huge corrugated steel silo extensions with a caged ladder. All 18 m wide.
 
-Capacity: 10,000,000 L
-Size: 18 m wide, 32 m walls, flat roof top at about 34.7 m
+PRX9000: 10,000,000 L, 32 m walls
+PRX8000: 8,000,000 L, 25.6 m walls
+PRX6000: 6,000,000 L, 19.2 m walls
 
-Place it near one of your silos to add its storage.]]></en>
-        <de><![CDATA[Pro X 9000 (PRX9000): eine riesige Silo-Erweiterung aus Wellblech mit Rückenschutzleiter.
+Place one near one of your silos to add its storage.]]></en>
+        <de><![CDATA[Pro X (PRX): riesige Silo-Erweiterungen aus Wellblech mit Rückenschutzleiter. Alle 18 m breit.
 
-Kapazität: 10.000.000 L
-Größe: 18 m breit, 32 m Wandhöhe, flaches Dach bei etwa 34,7 m
+PRX9000: 10.000.000 L, 32 m Wandhöhe
+PRX8000: 8.000.000 L, 25,6 m Wandhöhe
+PRX6000: 6.000.000 L, 19,2 m Wandhöhe
 
 In der Nähe eines deiner Silos platzieren, um dessen Lager zu erweitern.]]></de>
     </description>
@@ -24,5 +26,7 @@ In der Nähe eines deiner Silos platzieren, um dessen Lager zu erweitern.]]></de
     <multiplayer supported="true"/>
     <storeItems>
         <storeItem xmlFilename="prx9000.xml"/>
+        <storeItem xmlFilename="prx8000.xml"/>
+        <storeItem xmlFilename="prx6000.xml"/>
     </storeItems>
 </modDesc>
