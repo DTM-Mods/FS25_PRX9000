@@ -1,0 +1,15 @@
+{
+  "coordinate_system": "Blender XY horizontal, Z up",
+  "cone_center_xy_m": [
+    0.0,
+    0.0
+  ],
+  "flat_crown_center_xy_m": [
+    0,
+    0
+  ],
+  "offset_m": 0.0,
+  "crown_radius_m": 2.5,
+  "cone_base_radius_m": 0.85,
+  "verified_by": "actual cone/base flange geometry bounds; direct top-view render"
+}

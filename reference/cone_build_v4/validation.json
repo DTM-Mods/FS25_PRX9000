@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    "resource paths",
+    "binary shapes",
+    "no preview objects exported",
+    "two UV sets",
+    "zero centering offset",
+    "converter load/save"
+  ],
+  "geometry": {
+    "part": "roofFill",
+    "vertices": 14708,
+    "triangles": 27068,
+    "uv_layers": 2,
+    "materials": 6,
+    "dimensions_m": [
+      3.5999999046325684,
+      2.390000104904175,
+      1.808000087738037
+    ],
+    "collision": false
+  },
+  "game": "UNTESTED"
+}

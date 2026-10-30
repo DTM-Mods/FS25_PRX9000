@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="roofFill" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="i3dConverter" version="1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="5" filename="../textures/bolt_diffuse.dds"/>
+    <File fileId="6" filename="../textures/bolt_normal.dds"/>
+    <File fileId="7" filename="../textures/bolt_specular.dds"/>
+    <File fileId="1" filename="../textures/galv_diffuse.dds"/>
+    <File fileId="2" filename="../textures/galv_normal.dds"/>
+    <File fileId="3" filename="../textures/galv_specular.dds"/>
+    <File fileId="8" filename="../textures/rubber_diffuse.dds"/>
+    <File fileId="9" filename="../textures/rubber_normal.dds"/>
+    <File fileId="10" filename="../textures/rubber_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="mach_bolt" materialId="1" customShaderId="4">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+    </Material>
+    <Material name="mach_galv" materialId="2" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="mach_rubber" materialId="3" customShaderId="4">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="roofFill.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="roofFill" nodeId="6">
+      <Shape name="roofFill_vis" shapeId="1" nodeId="7" castsShadows="true" receiveShadows="true" materialIds="2,1,3"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
