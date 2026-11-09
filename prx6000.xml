@@ -56,7 +56,7 @@
     </ai>
 
     <siloExtension>
-        <storage node="storage" fillTypeCategories="farmSilo" capacity="6000000" isExtension="true"/>
+        <storage node="storage" fillTypeCategories="PRXSILO" capacity="6000000" isExtension="true"/>
     </siloExtension>
 
     <i3dMappings>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- PRX fill types. NOT listed in modDesc: scripts/PRXFillTypes.lua adds each one only if the game, map or another mod
+     doesn't already have it, so their versions always win. PRXSILO = everything a Fed silo takes. -->
+<map>
+    <fillTypes>
+        <fillType name="LENTILS" title="Lentils" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.70" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.800">
+                <factors>
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_soyBean.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/soybean_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/soybean_normal.png"
+                      height      ="$data/fillPlanes/soybean_height.png"
+                      displacement="$data/fillPlanes/soybean_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/soybeanDistance_diffuse.png" />
+        </fillType>
+        <fillType name="TOBACCO" title="Tobacco" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.900">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_dryGrass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/hay_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/hay_normal.png"
+                      height               ="$data/fillPlanes/hay_height.png"
+                      displacement         ="$data/fillPlanes/hay_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/hayDistance_diffuse.png" />
+        </fillType>
+        <fillType name="FIELDGRASS" title="Field Grass" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.30" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.050">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.6"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_grass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/grass_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/grass_normal.png"
+                      height               ="$data/fillPlanes/grass_height.png"
+                      displacement         ="$data/fillPlanes/grass_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/grassDistance_diffuse.png" />
+        </fillType>
+        <fillType name="BUCKWHEAT" title="Buckwheat" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.85" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.550">
+                <factors>
+                </factors>
+            </economy>
+            <effects  fruitSmokeColor="0.3006 0.1651 0.0630 1.0000"/>
+            <image    hud            ="$dataS/menu/hud/fillTypes/hud_fill_sorghum.png" />
+            <pallet   filename       ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse        ="$data/fillPlanes/sorghum_diffuse.png" unitSize="0.45" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal         ="$data/fillPlanes/sorghum_normal.png"
+                      height         ="$data/fillPlanes/sorghum_height.png"
+                      displacement   ="$data/fillPlanes/sorghum_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance       ="$data/fillPlanes/distance/sorghumDistance_diffuse.png" />
+        </fillType>
+        <fillType name="MUSTARD" title="Mustard" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.60" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.700">
+                <factors>
+                </factors>
+            </economy>
+            <effects  fruitSmokeColor="0.3006 0.1651 0.0630 1.0000"/>
+            <image    hud            ="$dataS/menu/hud/fillTypes/hud_fill_canola.png" />
+            <pallet   filename       ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse        ="$data/fillPlanes/canola_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal         ="$data/fillPlanes/canola_normal.png"
+                      height         ="$data/fillPlanes/canola_height.png"
+                      displacement   ="$data/fillPlanes/canola_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance       ="$data/fillPlanes/distance/canolaDistance_diffuse.png" />
+        </fillType>
+        <fillType name="POPPY" title="Poppy" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.60" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="1.100">
+                <factors>
+                </factors>
+            </economy>
+            <effects  fruitSmokeColor="0.3006 0.1651 0.0630 1.0000"/>
+            <image    hud            ="$dataS/menu/hud/fillTypes/hud_fill_canola.png" />
+            <pallet   filename       ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse        ="$data/fillPlanes/canola_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal         ="$data/fillPlanes/canola_normal.png"
+                      height         ="$data/fillPlanes/canola_height.png"
+                      displacement   ="$data/fillPlanes/canola_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance       ="$data/fillPlanes/distance/canolaDistance_diffuse.png" />
+        </fillType>
+        <fillType name="LAVENDER" title="Lavender" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.600">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_dryGrass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/hay_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/hay_normal.png"
+                      height               ="$data/fillPlanes/hay_height.png"
+                      displacement         ="$data/fillPlanes/hay_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/hayDistance_diffuse.png" />
+        </fillType>
+        <fillType name="DRYCLOVER_WINDROW" title="Clover Hay" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.070">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_dryGrass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/hay_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/hay_normal.png"
+                      height               ="$data/fillPlanes/hay_height.png"
+                      displacement         ="$data/fillPlanes/hay_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/hayDistance_diffuse.png" />
+        </fillType>
+        <fillType name="CLOVER_WINDROW" title="Clover" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.30" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.050">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.6"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_grass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/grass_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/grass_normal.png"
+                      height               ="$data/fillPlanes/grass_height.png"
+                      displacement         ="$data/fillPlanes/grass_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/grassDistance_diffuse.png" />
+        </fillType>
+        <fillType name="DRYCLOVER" title="Dry Clover" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.070">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_dryGrass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/hay_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/hay_normal.png"
+                      height               ="$data/fillPlanes/hay_height.png"
+                      displacement         ="$data/fillPlanes/hay_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/hayDistance_diffuse.png" />
+        </fillType>
+        <fillType name="DRYALFALFA_WINDROW" title="Alfalfa Hay" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.080">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_dryGrass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/hay_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/hay_normal.png"
+                      height               ="$data/fillPlanes/hay_height.png"
+                      displacement         ="$data/fillPlanes/hay_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/hayDistance_diffuse.png" />
+        </fillType>
+        <fillType name="DRYALFALFA" title="Dry Alfalfa" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.080">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_dryGrass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/hay_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/hay_normal.png"
+                      height               ="$data/fillPlanes/hay_height.png"
+                      displacement         ="$data/fillPlanes/hay_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/hayDistance_diffuse.png" />
+        </fillType>
+        <fillType name="ALFALFA_WINDROW" title="Alfalfa" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.30" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.060">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.6"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_grass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/grass_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/grass_normal.png"
+                      height               ="$data/fillPlanes/grass_height.png"
+                      displacement         ="$data/fillPlanes/grass_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/grassDistance_diffuse.png" />
+        </fillType>
+        <fillType name="ALFALFA" title="Alfalfa Grass" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.30" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.060">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.3098 0.1771 0.0474 0.15">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="1.8" beltAlphaScale="0.6"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_grass_windrow.png" />
+            <textures diffuse              ="$data/fillPlanes/grass_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/grass_normal.png"
+                      height               ="$data/fillPlanes/grass_height.png"
+                      displacement         ="$data/fillPlanes/grass_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/grassDistance_diffuse.png" />
+        </fillType>
+        <fillType name="FLAX_WINDROW" title="Flax Straw" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.06" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.050">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="2.0" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_straw.png" />
+            <textures diffuse              ="$data/fillPlanes/straw_diffuse.png" unitSize="1.25" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/straw_normal.png"
+                      height               ="$data/fillPlanes/straw_height.png"
+                      displacement         ="$data/fillPlanes/straw_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/strawDistance_diffuse.png" />
+        </fillType>
+        <fillType name="SOYBEANSTRAW" title="Soybean Straw" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.06" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.040">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="2.0" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_straw.png" />
+            <textures diffuse              ="$data/fillPlanes/straw_diffuse.png" unitSize="1.25" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/straw_normal.png"
+                      height               ="$data/fillPlanes/straw_height.png"
+                      displacement         ="$data/fillPlanes/straw_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/strawDistance_diffuse.png" />
+        </fillType>
+        <fillType name="HEMP_WINDROW" title="Hemp Straw" showOnPriceTable="false" isBulkType="true" isBaleType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.06" maxPhysicalSurfaceAngle="50" />
+            <economy pricePerLiter="0.060">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect">
+                <alphaClip value="0.2" sharpness="0.05" gradientScale="0.1" alphaScale="2.0" beltAlphaScale="0.65"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_straw.png" />
+            <textures diffuse              ="$data/fillPlanes/straw_diffuse.png" unitSize="1.25" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/straw_normal.png"
+                      height               ="$data/fillPlanes/straw_height.png"
+                      displacement         ="$data/fillPlanes/straw_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/strawDistance_diffuse.png" />
+        </fillType>
+        <fillType name="HEMP" title="Hemp" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.60" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.750">
+                <factors>
+                </factors>
+            </economy>
+            <effects  fruitSmokeColor="0.3006 0.1651 0.0630 1.0000"/>
+            <image    hud            ="$dataS/menu/hud/fillTypes/hud_fill_canola.png" />
+            <pallet   filename       ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse        ="$data/fillPlanes/canola_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal         ="$data/fillPlanes/canola_normal.png"
+                      height         ="$data/fillPlanes/canola_height.png"
+                      displacement   ="$data/fillPlanes/canola_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance       ="$data/fillPlanes/distance/canolaDistance_diffuse.png" />
+        </fillType>
+        <fillType name="SHELL" title="Shells" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics  massPerLiter ="1.6" maxPhysicalSurfaceAngle="35" />
+            <economy  pricePerLiter="0.030" />
+            <effects>
+                <alphaClip beltAlphaScale="0.36"/>
+            </effects>
+            <image    hud          ="$dataS/menu/hud/fillTypes/hud_fill_stone.png" />
+            <pallet   filename="$data/objects/pallets/stonePallet/stonePallet.xml" />
+            <textures diffuse      ="$data/fillPlanes/stone_diffuse.png" unitSize="0.7" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal       ="$data/fillPlanes/stone_normal.png"
+                      height       ="$data/fillPlanes/stone_height.png"
+                      displacement ="$data/fillPlanes/stone_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance     ="$data/fillPlanes/distance/stoneDistance_diffuse.png" />
+        </fillType>
+        <fillType name="COMPOST" title="Compost" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="30" />
+            <economy pricePerLiter="0.040">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.8 0.8 0.8 1">
+                <alphaClip value="0.4" sharpness="0.05" gradientScale="0.1" alphaScale="2.0" beltAlphaScale="0.7"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_manure.png" />
+            <textures diffuse              ="$data/fillPlanes/manure_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/manure_normal.png"
+                      height               ="$data/fillPlanes/manure_height.png"
+                      displacement         ="$data/fillPlanes/manure_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/manureDistance_diffuse.png" />
+        </fillType>
+        <fillType name="SAND" title="Sand" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics  massPerLiter ="1.2" maxPhysicalSurfaceAngle="15" />
+            <economy  pricePerLiter="0.030" />
+            <image    hud          ="$dataS/menu/hud/fillTypes/hud_fill_lime.png" />
+            <pallet   filename     ="$data/objects/bigBagPallet/lime/bigBagPallet_lime.xml" />
+            <textures diffuse      ="$data/fillPlanes/lime_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal       ="$data/fillPlanes/lime_normal.png"
+                      height       ="$data/fillPlanes/lime_height.png"
+                      displacement ="$data/fillPlanes/lime_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance     ="$data/fillPlanes/distance/limeDistance_diffuse.png" />
+        </fillType>
+        <fillType name="GRAVEL" title="Gravel" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics  massPerLiter ="1.6" maxPhysicalSurfaceAngle="35" />
+            <economy  pricePerLiter="0.040" />
+            <effects>
+                <alphaClip beltAlphaScale="0.36"/>
+            </effects>
+            <image    hud          ="$dataS/menu/hud/fillTypes/hud_fill_stone.png" />
+            <pallet   filename="$data/objects/pallets/stonePallet/stonePallet.xml" />
+            <textures diffuse      ="$data/fillPlanes/stone_diffuse.png" unitSize="0.7" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal       ="$data/fillPlanes/stone_normal.png"
+                      height       ="$data/fillPlanes/stone_height.png"
+                      displacement ="$data/fillPlanes/stone_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance     ="$data/fillPlanes/distance/stoneDistance_diffuse.png" />
+        </fillType>
+        <fillType name="DIRT" title="Dirt" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="30" />
+            <economy pricePerLiter="0.020">
+                <factors>
+                </factors>
+            </economy>
+            <effects  prioritizedEffectType="ParticleEffect" fillSmokeColor="0.8 0.8 0.8 1">
+                <alphaClip value="0.4" sharpness="0.05" gradientScale="0.1" alphaScale="2.0" beltAlphaScale="0.7"/>
+            </effects>
+            <image    hud                  ="$dataS/menu/hud/fillTypes/hud_fill_manure.png" />
+            <textures diffuse              ="$data/fillPlanes/manure_diffuse.png" unitSize="1" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal               ="$data/fillPlanes/manure_normal.png"
+                      height               ="$data/fillPlanes/manure_height.png"
+                      displacement         ="$data/fillPlanes/manure_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance             ="$data/fillPlanes/distance/manureDistance_diffuse.png" />
+        </fillType>
+        <fillType name="BEANS" title="Beans" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.70" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.700">
+                <factors>
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_soyBean.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/soybean_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/soybean_normal.png"
+                      height      ="$data/fillPlanes/soybean_height.png"
+                      displacement="$data/fillPlanes/soybean_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/soybeanDistance_diffuse.png" />
+        </fillType>
+        <fillType name="PEAS" title="Field Peas" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.70" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.600">
+                <factors>
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_soyBean.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/soybean_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/soybean_normal.png"
+                      height      ="$data/fillPlanes/soybean_height.png"
+                      displacement="$data/fillPlanes/soybean_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/soybeanDistance_diffuse.png" />
+        </fillType>
+        <fillType name="LINSEED" title="Linseed" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.60" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.800">
+                <factors>
+                </factors>
+            </economy>
+            <effects  fruitSmokeColor="0.3006 0.1651 0.0630 1.0000"/>
+            <image    hud            ="$dataS/menu/hud/fillTypes/hud_fill_canola.png" />
+            <pallet   filename       ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse        ="$data/fillPlanes/canola_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal         ="$data/fillPlanes/canola_normal.png"
+                      height         ="$data/fillPlanes/canola_height.png"
+                      displacement   ="$data/fillPlanes/canola_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance       ="$data/fillPlanes/distance/canolaDistance_diffuse.png" />
+        </fillType>
+        <fillType name="SPELT" title="Spelt" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.400">
+                <factors> <!-- march --> <!-- april --> <!-- mai --> <!-- june --> <!-- july --> <!-- august --> <!-- september --> <!-- october --> <!-- november --> <!-- december --> <!-- january --> <!-- feruary -->
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_wheat.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/wheat_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/wheat_normal.png"
+                      height      ="$data/fillPlanes/wheat_height.png"
+                      displacement="$data/fillPlanes/wheat_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/wheatDistance_diffuse.png" />
+        </fillType>
+        <fillType name="RYE" title="Rye" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.68" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.310">
+                <factors>
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_barley.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/barley_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/barley_normal.png"
+                      height      ="$data/fillPlanes/barley_height.png"
+                      displacement="$data/fillPlanes/barley_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/barleyDistance_diffuse.png" />
+        </fillType>
+        <fillType name="TRITICALE" title="Triticale" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.320">
+                <factors> <!-- march --> <!-- april --> <!-- mai --> <!-- june --> <!-- july --> <!-- august --> <!-- september --> <!-- october --> <!-- november --> <!-- december --> <!-- january --> <!-- feruary -->
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_wheat.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/wheat_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/wheat_normal.png"
+                      height      ="$data/fillPlanes/wheat_height.png"
+                      displacement="$data/fillPlanes/wheat_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/wheatDistance_diffuse.png" />
+        </fillType>
+        <fillType name="SUMMERWHEAT" title="Summer Wheat" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.340">
+                <factors> <!-- march --> <!-- april --> <!-- mai --> <!-- june --> <!-- july --> <!-- august --> <!-- september --> <!-- october --> <!-- november --> <!-- december --> <!-- january --> <!-- feruary -->
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_wheat.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/wheat_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/wheat_normal.png"
+                      height      ="$data/fillPlanes/wheat_height.png"
+                      displacement="$data/fillPlanes/wheat_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/wheatDistance_diffuse.png" />
+        </fillType>
+        <fillType name="SUMMERBARLEY" title="Summer Barley" showOnPriceTable="false" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.68" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.310">
+                <factors>
+                </factors>
+            </economy>
+            <image    hud         ="$dataS/menu/hud/fillTypes/hud_fill_barley.png" />
+            <pallet   filename    ="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures diffuse     ="$data/fillPlanes/barley_diffuse.png" unitSize="0.5" blendContrast="0.2" noiseScale="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1"
+                      normal      ="$data/fillPlanes/barley_normal.png"
+                      height      ="$data/fillPlanes/barley_height.png"
+                      displacement="$data/fillPlanes/barley_displacement.png" displacementMaxHeight="0.2" firmness="0.3" viscosity="0.5"
+                      distance    ="$data/fillPlanes/distance/barleyDistance_diffuse.png" />
+        </fillType>
+    </fillTypes>
+    <fillTypeCategories>
+        <fillTypeCategory name="PRXSILO">LENTILS TOBACCO FIELDGRASS BUCKWHEAT MUSTARD POPPY LAVENDER DRYCLOVER_WINDROW CLOVER_WINDROW DRYCLOVER DRYALFALFA_WINDROW DRYALFALFA ALFALFA_WINDROW ALFALFA FLAX_WINDROW SOYBEANSTRAW HEMP_WINDROW HEMP STONE SHELL COMPOST SAND GRAVEL DIRT BEANS PEAS LINSEED SPELT RYE TRITICALE SUMMERWHEAT SUMMERBARLEY WHEAT BARLEY OAT CANOLA SORGHUM SUNFLOWER SOYBEAN MAIZE SUGARBEET RICE RICELONGGRAIN GREENBEAN PEA SPINACH OLIVE SUGARCANE FORAGE_MIXING PIGFOOD MINERAL_FEED SEEDS FERTILIZER LIME MANURE SNOW ROADSALT GRASS_WINDROW DRYGRASS_WINDROW STRAW CHAFF SILAGE FORAGE COTTON WOODCHIPS SUGARBEET_CUT GRAPE BEETROOT CARROT PARSNIP POTATO</fillTypeCategory>
+    </fillTypeCategories>
+</map>

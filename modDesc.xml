@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="105">
     <author>PropaineX</author>
-    <version>1.5.1.0</version>
+    <version>1.7.0.0</version>
     <title>
         <en>Pro X (PRX) Silo Extensions Pro Edition</en>
         <de>Pro X (PRX) Silo-Erweiterungen Pro Edition</de>
@@ -22,6 +22,9 @@ PRX6000: 6.000.000 L, 19,2 m Wandhöhe
 
 In der Nähe eines deiner Silos platzieren, um dessen Lager zu erweitern.]]></de>
     </description>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/PRXFillTypes.lua"/>
+    </extraSourceFiles>
     <iconFilename>icon_prx9000.dds</iconFilename>
     <multiplayer supported="true"/>
     <storeItems>

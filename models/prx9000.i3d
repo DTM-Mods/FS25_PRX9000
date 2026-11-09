@@ -8,127 +8,127 @@
     <File fileId="102" filename="../textures/machinery/blue_diffuse.dds" />
     <File fileId="103" filename="../textures/machinery/blue_normal.dds" />
     <File fileId="104" filename="../textures/machinery/blue_specular.dds" />
-    <File fileId="105" filename="../textures/machinery/bolt_diffuse.dds" />
-    <File fileId="106" filename="../textures/machinery/bolt_normal.dds" />
-    <File fileId="107" filename="../textures/machinery/bolt_specular.dds" />
-    <File fileId="111" filename="../textures/machinery/dark_diffuse.dds" />
-    <File fileId="112" filename="../textures/machinery/dark_normal.dds" />
-    <File fileId="113" filename="../textures/machinery/dark_specular.dds" />
-    <File fileId="114" filename="../textures/machinery/galv_diffuse.dds" />
-    <File fileId="115" filename="../textures/machinery/galv_normal.dds" />
-    <File fileId="116" filename="../textures/machinery/galv_specular.dds" />
-    <File fileId="120" filename="../textures/machinery/rubber_diffuse.dds" />
-    <File fileId="121" filename="../textures/machinery/rubber_normal.dds" />
-    <File fileId="122" filename="../textures/machinery/rubber_specular.dds" />
-    <File fileId="126" filename="../textures/machinery/yellow_diffuse.dds" />
-    <File fileId="127" filename="../textures/machinery/yellow_normal.dds" />
-    <File fileId="128" filename="../textures/machinery/yellow_specular.dds" />
-    <File fileId="129" filename="../textures/prx9000_concrete_diffuse.dds" />
-    <File fileId="130" filename="../textures/prx9000_concrete_normal.dds" />
-    <File fileId="131" filename="../textures/prx9000_concrete_specular.dds" />
-    <File fileId="132" filename="../textures/prx9000_roof_diffuse.dds" />
-    <File fileId="133" filename="../textures/prx9000_roof_normal.dds" />
-    <File fileId="134" filename="../textures/prx9000_roof_specular.dds" />
-    <File fileId="135" filename="../textures/prx9000_wall_diffuse.dds" />
-    <File fileId="136" filename="../textures/prx9000_wall_normal.dds" />
-    <File fileId="137" filename="../textures/prx9000_wall_specular.dds" />
+    <File fileId="108" filename="../textures/machinery/bolt_diffuse.dds" />
+    <File fileId="109" filename="../textures/machinery/bolt_normal.dds" />
+    <File fileId="110" filename="../textures/machinery/bolt_specular.dds" />
+    <File fileId="117" filename="../textures/machinery/dark_diffuse.dds" />
+    <File fileId="118" filename="../textures/machinery/dark_normal.dds" />
+    <File fileId="119" filename="../textures/machinery/dark_specular.dds" />
+    <File fileId="123" filename="../textures/machinery/galv_diffuse.dds" />
+    <File fileId="124" filename="../textures/machinery/galv_normal.dds" />
+    <File fileId="125" filename="../textures/machinery/galv_specular.dds" />
+    <File fileId="135" filename="../textures/machinery/rubber_diffuse.dds" />
+    <File fileId="136" filename="../textures/machinery/rubber_normal.dds" />
+    <File fileId="137" filename="../textures/machinery/rubber_specular.dds" />
+    <File fileId="141" filename="../textures/machinery/yellow_diffuse.dds" />
+    <File fileId="142" filename="../textures/machinery/yellow_normal.dds" />
+    <File fileId="143" filename="../textures/machinery/yellow_specular.dds" />
+    <File fileId="147" filename="../textures/prx9000_concrete_diffuse.dds" />
+    <File fileId="148" filename="../textures/prx9000_concrete_normal.dds" />
+    <File fileId="149" filename="../textures/prx9000_concrete_specular.dds" />
+    <File fileId="150" filename="../textures/prx9000_roof_diffuse.dds" />
+    <File fileId="151" filename="../textures/prx9000_roof_normal.dds" />
+    <File fileId="152" filename="../textures/prx9000_roof_specular.dds" />
+    <File fileId="153" filename="../textures/prx9000_wall_diffuse.dds" />
+    <File fileId="154" filename="../textures/prx9000_wall_normal.dds" />
+    <File fileId="155" filename="../textures/prx9000_wall_specular.dds" />
   </Files>
   <Materials>
-    <Material name="mach_blue" materialId="5" customShaderId="101">
+    <Material name="mach_blue" materialId="12" customShaderId="101">
       <Texture fileId="102" />
       <Normalmap fileId="103" />
       <Glossmap fileId="104" />
     </Material>
-    <Material name="mach_bolt" materialId="9" customShaderId="101">
-      <Texture fileId="105" />
-      <Normalmap fileId="106" />
-      <Glossmap fileId="107" />
+    <Material name="mach_bolt" materialId="15" customShaderId="101">
+      <Texture fileId="108" />
+      <Normalmap fileId="109" />
+      <Glossmap fileId="110" />
     </Material>
-    <Material name="mach_dark" materialId="4" customShaderId="101">
-      <Texture fileId="111" />
-      <Normalmap fileId="112" />
-      <Glossmap fileId="113" />
+    <Material name="mach_dark" materialId="11" customShaderId="101">
+      <Texture fileId="117" />
+      <Normalmap fileId="118" />
+      <Glossmap fileId="119" />
     </Material>
-    <Material name="mach_galv" materialId="8" customShaderId="101">
-      <Texture fileId="114" />
-      <Normalmap fileId="115" />
-      <Glossmap fileId="116" />
+    <Material name="mach_galv" materialId="2" customShaderId="101">
+      <Texture fileId="123" />
+      <Normalmap fileId="124" />
+      <Glossmap fileId="125" />
     </Material>
-    <Material name="mach_rubber" materialId="10" customShaderId="101">
-      <Texture fileId="120" />
-      <Normalmap fileId="121" />
-      <Glossmap fileId="122" />
-    </Material>
-    <Material name="mach_yellow" materialId="7" customShaderId="101">
-      <Texture fileId="126" />
-      <Normalmap fileId="127" />
-      <Glossmap fileId="128" />
-    </Material>
-    <Material name="prx9000_collision_mat" materialId="1" diffuseColor="0.501961 0.501961 0.501961 1">
-    </Material>
-    <Material name="prx9000_concrete_mat" materialId="11" customShaderId="101">
-      <Texture fileId="129" />
-      <Normalmap fileId="130" />
-      <Glossmap fileId="131" />
-    </Material>
-    <Material name="prx9000_roof_mat" materialId="12" customShaderId="101">
-      <Texture fileId="132" />
-      <Normalmap fileId="133" />
-      <Glossmap fileId="134" />
-    </Material>
-    <Material name="prx9000_steel_mat" materialId="13" diffuseColor="0.560784 0.568627 0.580392 1" specularColor="0.6 1 0.73">
-    </Material>
-    <Material name="prx9000_wall_mat" materialId="14" customShaderId="101">
+    <Material name="mach_rubber" materialId="16" customShaderId="101">
       <Texture fileId="135" />
       <Normalmap fileId="136" />
       <Glossmap fileId="137" />
+    </Material>
+    <Material name="mach_yellow" materialId="13" customShaderId="101">
+      <Texture fileId="141" />
+      <Normalmap fileId="142" />
+      <Glossmap fileId="143" />
+    </Material>
+    <Material name="prx9000_collision_mat" materialId="1" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+    <Material name="prx9000_concrete_mat" materialId="17" customShaderId="101">
+      <Texture fileId="147" />
+      <Normalmap fileId="148" />
+      <Glossmap fileId="149" />
+    </Material>
+    <Material name="prx9000_roof_mat" materialId="18" customShaderId="101">
+      <Texture fileId="150" />
+      <Normalmap fileId="151" />
+      <Glossmap fileId="152" />
+    </Material>
+    <Material name="prx9000_steel_mat" materialId="19" diffuseColor="0.560784 0.568627 0.580392 1" specularColor="0.6 1 0.73">
+    </Material>
+    <Material name="prx9000_wall_mat" materialId="20" customShaderId="101">
+      <Texture fileId="153" />
+      <Normalmap fileId="154" />
+      <Glossmap fileId="155" />
     </Material>
   </Materials>
   <Shapes externalShapesFile="prx9000.i3d.shapes">
   </Shapes>
   <Scene>
-    <TransformGroup name="prx9000" nodeId="27">
-      <TransformGroup name="clearAreas" nodeId="28">
-        <TransformGroup name="clearAreaStart01" nodeId="29" translation="-18 0 -12">
-          <TransformGroup name="clearAreaWidth01" nodeId="31" translation="0 0 24" />
-          <TransformGroup name="clearAreaHeight01" nodeId="30" translation="30 0 0" />
+    <TransformGroup name="prx9000" nodeId="33">
+      <TransformGroup name="clearAreas" nodeId="34">
+        <TransformGroup name="clearAreaStart01" nodeId="35" translation="-18 0 -12">
+          <TransformGroup name="clearAreaWidth01" nodeId="37" translation="0 0 24" />
+          <TransformGroup name="clearAreaHeight01" nodeId="36" translation="30 0 0" />
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="levelAreas" nodeId="35">
-        <TransformGroup name="levelAreaStart01" nodeId="36" translation="-18.5 0 -12.5">
-          <TransformGroup name="levelAreaWidth01" nodeId="38" translation="0 0 25" />
-          <TransformGroup name="levelAreaHeight01" nodeId="37" translation="31 0 0" />
+      <TransformGroup name="levelAreas" nodeId="41">
+        <TransformGroup name="levelAreaStart01" nodeId="42" translation="-18.5 0 -12.5">
+          <TransformGroup name="levelAreaWidth01" nodeId="44" translation="0 0 25" />
+          <TransformGroup name="levelAreaHeight01" nodeId="43" translation="31 0 0" />
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="testAreas" nodeId="41">
-        <TransformGroup name="testAreaStart01" nodeId="42" translation="-18 0 -12">
-          <TransformGroup name="testAreaEnd01" nodeId="43" translation="30 44 24" />
+      <TransformGroup name="testAreas" nodeId="47">
+        <TransformGroup name="testAreaStart01" nodeId="48" translation="-18 0 -12">
+          <TransformGroup name="testAreaEnd01" nodeId="49" translation="30 44 24" />
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="44">
-        <TransformGroup name="tipOcclusionUpdateAreaStart01" nodeId="45" translation="-10.5 0 -10.5">
-          <TransformGroup name="tipOcclusionUpdateAreaEnd01" nodeId="46" translation="21 0 21" />
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="50">
+        <TransformGroup name="tipOcclusionUpdateAreaStart01" nodeId="51" translation="-10.5 0 -10.5">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd01" nodeId="52" translation="21 0 21" />
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="siloExtension" nodeId="39">
-        <TransformGroup name="storage" nodeId="40" />
+      <TransformGroup name="siloExtension" nodeId="45">
+        <TransformGroup name="storage" nodeId="46" />
       </TransformGroup>
-      <TransformGroup name="visuals" nodeId="47">
-        <TransformGroup name="machinery" nodeId="48">
-          <Shape name="aerationBlower01" translation="5.162 0 7.372" rotation="0 -55 0" shapeId="2" nodeId="49" castsShadows="true" receiveShadows="true" materialIds="9,8,4,5,10,7" clipDistance="1000" />
-          <Shape name="aerationBlower02" translation="-5.162 0 -7.372" rotation="-0 125 -0" shapeId="2" nodeId="50" castsShadows="true" receiveShadows="true" materialIds="9,8,4,5,10,7" clipDistance="1000" />
-          <Shape name="bucketElevator01" translation="-16 0 0" shapeId="3" nodeId="51" castsShadows="true" receiveShadows="true" materialIds="9,4,8,5,7" clipDistance="1000" />
-          <Shape name="conveyor01" translation="0 36.71 0" shapeId="4" nodeId="52" castsShadows="true" receiveShadows="true" materialIds="9,8,4,5,7" clipDistance="1000" />
-          <Shape name="roofFill01" translation="0 34.91 0" shapeId="5" nodeId="53" castsShadows="true" receiveShadows="true" materialIds="8,9,10" clipDistance="1000" />
+      <TransformGroup name="visuals" nodeId="53">
+        <Shape name="crown" shapeId="2" nodeId="54" castsShadows="true" receiveShadows="true" materialIds="2" />
+        <TransformGroup name="machinery" nodeId="55">
+          <Shape name="aerationBlower01" translation="5.162 0 7.372" rotation="0 -55 0" shapeId="3" nodeId="56" castsShadows="true" receiveShadows="true" materialIds="15,2,11,12,16,13" clipDistance="1000" />
+          <Shape name="bucketElevator01" translation="-10.87 0 0" shapeId="4" nodeId="57" castsShadows="true" receiveShadows="true" materialIds="15,11,2,12,13" clipDistance="1000" />
+          <Shape name="conveyor01" translation="0 36.71 0" shapeId="5" nodeId="58" castsShadows="true" receiveShadows="true" materialIds="15,2,11,12,13" clipDistance="1000" />
+          <Shape name="roofFill01" translation="0 34.91 0" shapeId="6" nodeId="59" castsShadows="true" receiveShadows="true" materialIds="2,15,16" clipDistance="1000" />
         </TransformGroup>
-        <Shape name="pad" shapeId="6" nodeId="54" castsShadows="true" receiveShadows="true" materialIds="11" clipDistance="1000" />
-        <Shape name="roof" shapeId="7" nodeId="55" castsShadows="true" receiveShadows="true" materialIds="12" clipDistance="1000" />
-        <Shape name="steel" shapeId="8" nodeId="56" castsShadows="true" receiveShadows="true" materialIds="13" clipDistance="1000" />
-        <Shape name="wall" shapeId="9" nodeId="57" castsShadows="true" receiveShadows="true" materialIds="14" clipDistance="1000" />
+        <Shape name="pad" shapeId="7" nodeId="60" castsShadows="true" receiveShadows="true" materialIds="17" clipDistance="1000" />
+        <Shape name="roof" shapeId="8" nodeId="61" castsShadows="true" receiveShadows="true" materialIds="18" clipDistance="1000" />
+        <Shape name="steel" shapeId="9" nodeId="62" castsShadows="true" receiveShadows="true" materialIds="19" clipDistance="1000" />
+        <Shape name="wall" shapeId="10" nodeId="63" castsShadows="true" receiveShadows="true" materialIds="20" clipDistance="1000" />
       </TransformGroup>
-      <TransformGroup name="collisions" nodeId="32">
-        <Shape name="collision" shapeId="1" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" nodeId="33" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" />
-        <Shape name="tipCollision" shapeId="1" static="true" collisionFilterGroup="0x8" collisionFilterMask="0x1" nodeId="34" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" />
+      <TransformGroup name="collisions" nodeId="38">
+        <Shape name="collision" shapeId="1" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" nodeId="39" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" />
+        <Shape name="tipCollision" shapeId="1" static="true" collisionFilterGroup="0x8" collisionFilterMask="0x1" nodeId="40" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" />
       </TransformGroup>
     </TransformGroup>
   </Scene>
