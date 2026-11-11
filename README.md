@@ -39,6 +39,18 @@ Farming Simulator 25 silo extensions, built from scratch by PropaineX.
 - Corrugated galvanised steel with vertical ribs, ring seams every 3.2 m, a flat-topped roof and a caged ladder
 - Shop: Buildings > Silo Extensions
 
+<!-- dtm-screenshots -->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/screenshots.jpg" alt="Screenshots" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/screens/FS25_PRX9000/shop.jpg" alt="PRX6000, PRX8000 and PRX9000" width="100%">
+</p>
+
+<!-- /dtm-screenshots -->
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/files.jpg" alt="Files" width="100%">
 </p>
