@@ -4,6 +4,12 @@
 
 # Patch notes
 
+## 1.7.3.0 - 2026-11-11 - Onions, bananas and coffee
+
+- PRX9000, PRX8000 and PRX6000 now also store onions (clean and dirty), bananas and coffee cherries. The silo crop list matches the Fed Mods silos again (75 crops).
+- Bananas and coffee cherries come with the Beans & Alpacas DLC; on maps without them they're simply skipped.
+- Untested in the running game.
+
 ## 1.7.2.0 - 2026-11-11 - Concrete stays attached to the foundation
 
 - Fixed the concrete foundation texture sliding as you walk or turn around PRX9000, PRX8000 and PRX6000. An unused texture channel was enabling a depth effect on the flat concrete.

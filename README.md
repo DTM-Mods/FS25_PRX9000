@@ -60,12 +60,11 @@ Download `FS25_PRX9000.zip` from the [latest release](https://github.com/DTM-Mod
 
 ## Patch notes
 
-### 1.7.2.0 - 2026-11-11 - Concrete stays attached to the foundation
+### 1.7.3.0 - 2026-11-11 - Onions, bananas and coffee
 
-- Fixed the concrete foundation texture sliding as you walk or turn around PRX9000, PRX8000 and PRX6000. An unused texture channel was enabling a depth effect on the flat concrete.
-- Preserved the improved concrete appearance from 1.7.1.0, including its surface detail and corrected edge scale. Silo models, storage capacities and prices are unchanged.
-- Updated the texture conversion tools to prevent RGB normal maps from accidentally enabling this effect again.
-- Validation: confirmed in GIANTS Editor 10.0.14 with matched camera renders; all normal-map RGB pixels and all 12 mip levels are preserved. Untested in the running game.
+- PRX9000, PRX8000 and PRX6000 now also store onions (clean and dirty), bananas and coffee cherries. The silo crop list matches the Fed Mods silos again (75 crops).
+- Bananas and coffee cherries come with the Beans & Alpacas DLC; on maps without them they're simply skipped.
+- Untested in the running game.
 
 [Full patch history](PATCH_NOTES.md).
 
