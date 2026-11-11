@@ -4,6 +4,10 @@
 
 # Patch notes
 
+## 1.7.1.0
+- Fixed: the concrete foundation pad shimmered and crawled as you walked up to it, as if the texture were sliding across it. Its surface relief was random pixel noise; it is now smooth, real-looking concrete.
+- Fixed: the edge of the pad showed a smeared beige band. It is now textured as concrete at true scale, matching the top.
+
 ## 1.7.0.0
 - The silos now bring their own fill types (71 in total), so they add capacity for every crop and product without needing the Fed Mods pack. Types that already exist in the game or another mod are left untouched.
 
