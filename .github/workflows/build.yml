@@ -16,6 +16,6 @@ permissions:
 jobs:
   mod:
     uses: DTM-Mods/.github/.github/workflows/fs25-mod.yml@main
-    # with:
-    #   max-files: 0            # no GIANTS ModHub 128-file limit (big mods that never go to ModHub)
-    #   test-command: python tests/run_all.py
+    with:
+      test-command: python tools/verify_concrete_normal.py
+      # max-files: 0           # optional: disable the GIANTS ModHub 128-file limit

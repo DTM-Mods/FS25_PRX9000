@@ -9,3 +9,9 @@
 *.bak
 *backup*/
 *Backup*/
+
+# Local diagnostic captures; the reviewed explanation and comparison live in docs/.
+/debug.log
+/Base moving video.mp4
+/reference/movement_investigation_v01/
+__pycache__/

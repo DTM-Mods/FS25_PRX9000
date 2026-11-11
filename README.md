@@ -58,6 +58,17 @@ Farming Simulator 25 silo extensions, built from scratch by PropaineX.
 
 Download `FS25_PRX9000.zip` from the [latest release](https://github.com/DTM-Mods/FS25_PRX9000/releases/latest) and put it in `Documents/My Games/FarmingSimulator2025/mods`, without unzipping or renaming it. In multiplayer, the server and every player need the same version.
 
+## Patch notes
+
+### 1.7.2.0 - 2026-11-11 - Concrete stays attached to the foundation
+
+- Fixed the concrete foundation texture sliding as you walk or turn around PRX9000, PRX8000 and PRX6000. An unused texture channel was enabling a depth effect on the flat concrete.
+- Preserved the improved concrete appearance from 1.7.1.0, including its surface detail and corrected edge scale. Silo models, storage capacities and prices are unchanged.
+- Updated the texture conversion tools to prevent RGB normal maps from accidentally enabling this effect again.
+- Validation: confirmed in GIANTS Editor 10.0.14 with matched camera renders; all normal-map RGB pixels and all 12 mip levels are preserved. Untested in the running game.
+
+[Full patch history](PATCH_NOTES.md).
+
 <details>
 <summary><b>For developers</b>: files, building and tests</summary>
 
@@ -67,6 +78,15 @@ Download `FS25_PRX9000.zip` from the [latest release](https://github.com/DTM-Mod
 - `models/`: the three models
 - `textures/`: corrugated steel textures for the wall and roof, concrete for the foundation pad, machinery textures
 - `reference/`: the look we're aiming for
+- `tools/`: texture conversion and a concrete normal-map regression check; excluded from the mod ZIP
+- [Concrete movement diagnosis and engine comparison](docs/concrete-pad-parallax.md)
+
+### Concrete texture tools
+
+`python tools/verify_concrete_normal.py` checks the shipped concrete normal map for accidental parallax data.
+`python tools/png_to_dds.py input_normal.png output_normal.dds` preserves RGB normal maps as three-channel BC1;
+RGBA normal maps retain their intentional height channel. Use `--normal-rgb` explicitly when a normal map has an
+unused opaque alpha channel. Other texture types retain the existing DXT5 conversion behavior.
 
 </details>
 
