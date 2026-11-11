@@ -52,13 +52,22 @@ Farming Simulator 25 silo extensions, built from scratch by PropaineX.
 <!-- /dtm-screenshots -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/files.jpg" alt="Files" width="100%">
+  <img src="https://raw.githubusercontent.com/DTM-Mods/.github/main/assets/installation.jpg" alt="Installation" width="100%">
 </p>
+
+Download `FS25_PRX9000.zip` from the [latest release](https://github.com/DTM-Mods/FS25_PRX9000/releases/latest) and put it in `Documents/My Games/FarmingSimulator2025/mods`, without unzipping or renaming it. In multiplayer, the server and every player need the same version.
+
+<details>
+<summary><b>For developers</b>: files, building and tests</summary>
+
+### Files
 
 - `modDesc.xml`, `prx9000.xml`, `prx8000.xml`, `prx6000.xml`: mod and placeable definitions
 - `models/`: the three models
 - `textures/`: corrugated steel textures for the wall and roof
 - `reference/`: the look we're aiming for
+
+</details>
 
 ---
 
