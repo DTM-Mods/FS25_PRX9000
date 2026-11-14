@@ -4,6 +4,10 @@
 
 # Patch notes
 
+## 1.7.3.1 - 2026-11-13 - Author name
+
+- The author now shows as **DTM Mods, PropaineX** in the mod list.
+
 ## 1.7.3.0 - 2026-11-11 - Onions, bananas and coffee
 
 - PRX9000, PRX8000 and PRX6000 now also store onions (clean and dirty), bananas and coffee cherries. The silo crop list matches the Fed Mods silos again (75 crops).
