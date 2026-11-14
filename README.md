@@ -64,7 +64,7 @@ Download `FS25_PRX9000.zip` from the [latest release](https://github.com/DTM-Mod
 
 - PRX9000, PRX8000 and PRX6000 now also store onions (clean and dirty), bananas and coffee cherries. The silo crop list matches the Fed Mods silos again (75 crops).
 - Bananas and coffee cherries come with the Beans & Alpacas DLC; on maps without them they're simply skipped.
-- Untested in the running game.
+- Checked in the running game (2026-11-14).
 
 [Full patch history](PATCH_NOTES.md).
 

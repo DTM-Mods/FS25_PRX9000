@@ -84,6 +84,5 @@ Changelog 1.7.3.0 :
 ## Before uploading
 
 - The store items have `<brand>NONE</brand>` (no brand); Manufacturer is set to Lizard, GIANTS' own no-name brand.
-- The patch notes mark 1.7.3.0 as "Untested in the running game". Test it in game before uploading.
 - The mod adds 31 fill types of its own (crops from other maps and mods, such as lentils, tobacco, hemp and buckwheat) so the silos match the Fed Mods silos used on the group's server. ModHub testers may question fill types that only matter with other content; decide whether to keep them in the ModHub version.
 - The mod itself has English and German texts only (modDesc title and description; the shop names "Pro X 9000 (PRX9000)" etc. are not translated), and the modDesc description does not mention the fill types yet. The French texts here do not add French to the mod.
