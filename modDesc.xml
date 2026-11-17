@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="116">
     <author>DTM Mods, PropaineX</author>
-    <version>1.7.3.3</version>
+    <version>1.7.3.4</version>
     <title>
         <en>Pro X (PRX) Silo Extensions Pro Edition</en>
         <de>Pro X (PRX) Silo-Erweiterungen Pro Edition</de>
@@ -30,8 +30,9 @@ PRX6000: 6,000,000 L, 19.2 m walls
 
 Place one near one of your silos to add its storage.
 
-Changelog 1.7.3.3:
-- Updated for the current game version (modDesc version 116).]]></en>
+Changelog 1.7.3.4:
+- Description in GIANTS' ModHub layout (category, price, upkeep or hotkeys at the top).
+- Shop images without mipmaps, as ModHub wants.]]></en>
         <de><![CDATA[Pro X 9000 (PRX9000)
 Kategorie: Siloerweiterungen
 Preis: 450.000 €
@@ -55,8 +56,9 @@ PRX6000: 6.000.000 L, 19,2 m Wandhöhe
 
 In der Nähe eines deiner Silos platzieren, um dessen Lager zu erweitern.
 
-Changelog 1.7.3.3:
-- An die aktuelle Spielversion angepasst (modDesc-Version 116).]]></de>
+Changelog 1.7.3.4:
+- Beschreibung im ModHub-Aufbau von GIANTS (Kategorie, Preis, Unterhalt bzw. Tasten oben).
+- Shopbilder ohne Mipmaps, wie ModHub es verlangt.]]></de>
     </description>
     <extraSourceFiles>
         <sourceFile filename="scripts/PRXFillTypes.lua"/>
