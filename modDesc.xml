@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="105">
+<modDesc descVersion="115">
     <author>DTM Mods, PropaineX</author>
-    <version>1.7.3.1</version>
+    <version>1.7.3.2</version>
     <title>
         <en>Pro X (PRX) Silo Extensions Pro Edition</en>
         <de>Pro X (PRX) Silo-Erweiterungen Pro Edition</de>
@@ -13,14 +13,20 @@ PRX9000: 10,000,000 L, 32 m walls
 PRX8000: 8,000,000 L, 25.6 m walls
 PRX6000: 6,000,000 L, 19.2 m walls
 
-Place one near one of your silos to add its storage.]]></en>
+Place one near one of your silos to add its storage.
+
+Changelog 1.7.3.2:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.]]></en>
         <de><![CDATA[Pro X (PRX): riesige Silo-Erweiterungen aus Wellblech mit Rückenschutzleiter. Alle 18 m breit.
 
 PRX9000: 10.000.000 L, 32 m Wandhöhe
 PRX8000: 8.000.000 L, 25,6 m Wandhöhe
 PRX6000: 6.000.000 L, 19,2 m Wandhöhe
 
-In der Nähe eines deiner Silos platzieren, um dessen Lager zu erweitern.]]></de>
+In der Nähe eines deiner Silos platzieren, um dessen Lager zu erweitern.
+
+Changelog 1.7.3.2:
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.]]></de>
     </description>
     <extraSourceFiles>
         <sourceFile filename="scripts/PRXFillTypes.lua"/>

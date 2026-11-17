@@ -1,0 +1,10 @@
+# Files that stay in the repository but never go into the mod zip (see DTM-Mods/.github ci/README.md)
+
+# identical to blue_normal.dds / blue_specular.dds, which the models use instead
+textures/machinery/bolt_normal.dds
+textures/machinery/dark_normal.dds
+textures/machinery/rubber_normal.dds
+textures/machinery/yellow_normal.dds
+textures/machinery/dark_specular.dds
+textures/machinery/rubber_specular.dds
+textures/machinery/yellow_specular.dds

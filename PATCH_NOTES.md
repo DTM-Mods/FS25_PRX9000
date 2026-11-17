@@ -4,6 +4,9 @@
 
 # Patch notes
 
+## 1.7.3.2
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+
 ## 1.7.3.1 - 2026-11-13 - Author name
 
 - The author now shows as **DTM Mods, PropaineX** in the mod list.
