@@ -35,51 +35,85 @@ Extensions de silo Pro X (PRX) Pro Edition
 
 ## Description English
 ```text
-Pro X (PRX): three huge corrugated steel silo extensions with a caged ladder, built from scratch. Place one near one of your silos and its capacity is added to that silo's storage. All three are 18 m wide.
+Pro X 9000 (PRX9000)
+Category: Silo Extensions
+Price: $450,000
+Monthly upkeep: $100
 
-- PRX9000: 10,000,000 L, 32 m walls, price 450,000
-- PRX8000: 8,000,000 L, 25.6 m walls, price 360,000
-- PRX6000: 6,000,000 L, 19.2 m walls, price 270,000
-- Stores 75 crops and products. The extensions bring their own fill types, so they also hold crops that are not in the base game. Fill types that already exist in the game or another mod are left untouched.
-- Galvanised steel walls with ring seams, a flat-topped roof, aeration blower, bucket elevator, conveyor and roof fill, on a concrete foundation pad.
-- Shop: Buildings > Silo Extensions. Multiplayer supported.
+Pro X 8000 (PRX8000)
+Category: Silo Extensions
+Price: $360,000
+Monthly upkeep: $80
 
-Changelog 1.7.3.0:
-- The silos now also store onions (clean and dirty), bananas and coffee cherries.
-- Bananas and coffee cherries need a map or DLC that has them; without them they are simply skipped.
+Pro X 6000 (PRX6000)
+Category: Silo Extensions
+Price: $270,000
+Monthly upkeep: $60
+
+Pro X (PRX): huge corrugated steel silo extensions with a caged ladder. All 18 m wide.
+
+PRX9000: 10,000,000 L, 32 m walls
+PRX8000: 8,000,000 L, 25.6 m walls
+PRX6000: 6,000,000 L, 19.2 m walls
+
+Place one near one of your silos to add its storage.
 ```
 
 ## Description German
 ```text
-Pro X (PRX): drei riesige Siloerweiterungen aus Wellblech mit Rückenschutzleiter, komplett selbst gebaut. In der Nähe eines deiner Silos platzieren, und ihre Kapazität wird dem Lager dieses Silos hinzugefügt. Alle drei sind 18 m breit.
+Pro X 9000 (PRX9000)
+Kategorie: Siloerweiterungen
+Preis: 450.000 €
+Monatliche Unterhaltskosten: 100 €
 
-- PRX9000: 10.000.000 L, 32 m Wandhöhe, Preis 450.000
-- PRX8000: 8.000.000 L, 25,6 m Wandhöhe, Preis 360.000
-- PRX6000: 6.000.000 L, 19,2 m Wandhöhe, Preis 270.000
-- Lagert 75 Feldfrüchte und Produkte. Die Erweiterungen bringen eigene Fülltypen mit und nehmen so auch Feldfrüchte auf, die es im Grundspiel nicht gibt. Fülltypen, die das Spiel oder eine andere Mod schon hat, bleiben unverändert.
-- Verzinkte Stahlwände mit Ringnähten, flaches Dach, Belüftungsgebläse, Becherwerk, Förderband und Dachbefüllung, auf einem Betonfundament.
-- Shop: Gebäude > Siloerweiterungen. Mehrspielerfähig.
+Pro X 8000 (PRX8000)
+Kategorie: Siloerweiterungen
+Preis: 360.000 €
+Monatliche Unterhaltskosten: 80 €
 
-Changelog 1.7.3.0:
-- Die Silos lagern jetzt auch Zwiebeln (sauber und verschmutzt), Bananen und Kaffeekirschen.
-- Bananen und Kaffeekirschen brauchen eine Karte oder ein DLC, die sie enthalten; ohne sie werden sie einfach übersprungen.
+Pro X 6000 (PRX6000)
+Kategorie: Siloerweiterungen
+Preis: 270.000 €
+Monatliche Unterhaltskosten: 60 €
+
+Pro X (PRX): riesige Silo-Erweiterungen aus Wellblech mit Rückenschutzleiter. Alle 18 m breit.
+
+PRX9000: 10.000.000 L, 32 m Wandhöhe
+PRX8000: 8.000.000 L, 25,6 m Wandhöhe
+PRX6000: 6.000.000 L, 19,2 m Wandhöhe
+
+In der Nähe eines deiner Silos platzieren, um dessen Lager zu erweitern.
 ```
 
 ## Description French
 ```text
-Pro X (PRX) : trois énormes extensions de silo en tôle ondulée avec échelle à crinoline, entièrement faites maison. Placez-en une près d'un de vos silos et sa capacité s'ajoute au stockage de ce silo. Toutes les trois font 18 m de large.
+Pro X 9000 (PRX9000)
+Catégorie : Extensions de silo
+Prix : 450 000 $
+Entretien mensuel : 100 $
 
-- PRX9000 : 10 000 000 L, murs de 32 m, prix 450 000
-- PRX8000 : 8 000 000 L, murs de 25,6 m, prix 360 000
-- PRX6000 : 6 000 000 L, murs de 19,2 m, prix 270 000
-- Stocke 75 cultures et produits. Les extensions apportent leurs propres types de remplissage et acceptent donc aussi des cultures absentes du jeu de base. Les types de remplissage qui existent déjà dans le jeu ou dans un autre mod restent inchangés.
-- Murs en acier galvanisé avec joints annulaires, toit plat, ventilateur d'aération, élévateur à godets, convoyeur et remplissage par le toit, sur une dalle de fondation en béton.
-- Boutique : Bâtiments > Extensions de silo. Compatible multijoueur.
+Pro X 8000 (PRX8000)
+Catégorie : Extensions de silo
+Prix : 360 000 $
+Entretien mensuel : 80 $
 
-Changelog 1.7.3.0 :
-- Les silos stockent maintenant aussi les oignons (propres et sales), les bananes et les cerises de café.
-- Les bananes et les cerises de café nécessitent une carte ou un DLC qui les contient ; sinon, elles sont simplement ignorées.
+Pro X 6000 (PRX6000)
+Catégorie : Extensions de silo
+Prix : 270 000 $
+Entretien mensuel : 60 $
+
+Pro X (PRX) : d'énormes extensions de silo en tôle ondulée avec échelle à crinoline. Toutes font 18 m de large.
+
+PRX9000 : 10 000 000 L, murs de 32 m
+PRX8000 : 8 000 000 L, murs de 25,6 m
+PRX6000 : 6 000 000 L, murs de 19,2 m
+
+Placez-en une près d'un de vos silos pour agrandir son stockage.
 ```
+
+## Screenshots
+
+Upload the 4 images in [`screenshots/`](screenshots/) (1600x900, unedited in-game shots) in this order: [`1.jpg`](screenshots/1.jpg), [`2.jpg`](screenshots/2.jpg), [`3.jpg`](screenshots/3.jpg), [`4.jpg`](screenshots/4.jpg).
 
 ## Before uploading
 
