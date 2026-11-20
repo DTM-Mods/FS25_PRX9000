@@ -35,7 +35,7 @@ each game works it out the same way. Moderate job: the script plus a simple pipe
 
 ## 4. Session of 2026-10-29: vent, new look, machinery parts
 **Where it stands:** mod source is at **1.3.0.0**, built but NOT zipped, NOT committed. The last zip sent out
-(Testing_local + mods) is 1.2.1.0.
+(Local_testing + mods) is 1.2.1.0.
 
 ### Done in the mod
 1. **Notes cleanup:** old Section 2 removed from this file and from the git history (force-pushed).
@@ -52,7 +52,7 @@ each game works it out the same way. Moderate job: the script plus a simple pipe
 7. The roof textures on disk were changed at 17:21 by someone else; they were left as they are.
 
 ### Zips
-- 1.2.0.0 and then 1.2.1.0 zipped to Testing_local and mods (you named those two; no server upload).
+- 1.2.0.0 and then 1.2.1.0 zipped to Local_testing and mods (you named those two; no server upload).
 
 ### Machinery parts (separate, NOT in the mod)
 Saved as their own parts in `MOD PROJECTS\Library\_FS25_SiloMachinery\` ("like wheels on a truck": the silo is the

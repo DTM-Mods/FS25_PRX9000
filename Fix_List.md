@@ -27,6 +27,6 @@ Every fix applies to EVERY silo that has the problem (PRX9000, PRX8000, PRX6000)
 ## Questions for the user (to answer later)
 1. Leg moved against the silo: two of its three guy wires would go through the silo. Anchor them to the silo wall, or keep them on the ground and swing them around the silo?
 
-## Status 2026-10-29: ALL DONE in PRX 1.6.0.0 (zipped, Testing_local + server /testing). Untested in game.
+## Status 2026-10-29: ALL DONE in PRX 1.6.0.0 (zipped, Local_testing + server /testing). Untested in game.
 Also added (user): riveted galvanized ring round the roof/flat-crown seam; guy cables removed from the elevator.
 Roof ring bands dropped (user's top-view reference) instead of filled in.
